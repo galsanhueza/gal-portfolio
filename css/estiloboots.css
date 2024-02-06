@@ -1,0 +1,22 @@
+.body{
+    line-height: 1.5; 
+    font-family: 'Rajdhani', sans-serif;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none; 
+    color: #4f08f5;
+}
+
+.imagenBio{
+    width: 500px;
+}
+
+.imagenEscr{
+    width: 500px;
+}
+
+.imggale{
+    width: 300px;
+}

@@ -1,0 +1,698 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.body_inicio {
+    background-color: rgb(255, 255, 255); 
+    line-height: 1.5; 
+    font-family: 'Alumni Sans', sans-serif;
+}
+
+.conteiner_inicio{
+    width: 90%;
+    height: 80vh;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    grid-template-areas: 
+    "header header"
+    "navbar navbar"
+    "imgInicio imgInicio"
+    "redes redes";
+}
+
+.header{
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.navbar{
+    grid-area: navbar;
+    text-align: center;
+    background-color: #000000;
+}
+
+.imgInicio{
+    grid-area: imagen;
+    text-align: center;
+}
+
+.redes{
+    grid-area: redes;
+    text-align: right;
+}
+
+.imagen{
+    width: 200px;
+    align-content: center;
+}
+
+h1 {
+    color: #000000;
+    font-style: normal ; 
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    margin: 10px;
+}
+
+h3 {
+    color: #000000;
+    font-style:normal; 
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none; 
+    color: #ea6cee;
+}
+
+ul{
+    list-style-type: none; 
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+li a{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ea6cee;
+}
+
+li a:hover{
+    color:#000000;
+    background-color: #00ffff;
+    padding: auto;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #000000;
+}
+
+.mail{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin: 2%;
+    text-align: left;
+}
+
+.ig{
+    font-size: 20px;
+<<<<<<< HEAD
+    margin: 2%;
+=======
+>>>>>>> rama1
+    text-align: center;
+}
+
+.pagweb{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 2%;
+    text-align: right;
+}
+
+.pagweb a:hover{
+    color:#000000 ;
+    background-color: #00ffff;
+    padding: auto;
+}
+
+
+.body_bio{
+    background-color: #ffffff; 
+    font-family: 'Alumni Sans', sans-serif; 
+    font-size: 20px;
+    font-weight: 400;  
+    font-stretch: normal; 
+    line-height: 1.5;
+}
+
+.conteiner_bio{
+    width: 90%;
+    height: 80vh;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    grid-template-areas: 
+    "header header"
+    "navbar navbar"
+    "titulo titulo"
+    "textoBio img_bio"
+    "irainicio irainicio";
+}
+
+.header{
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar{
+    grid-area: navbar;
+    text-align: center;
+    background-color: #000000;
+}
+
+.titulo{
+    grid-area: titulo;
+    text-align: left;
+}
+
+.img_bio{
+    grid-area: img_bio;
+    text-align: right;
+    width: 400px;
+}
+
+.textoBio{
+    grid-area: textoBio;
+    text-align: left;
+}
+
+.irainicio{
+    grid-area: irainicio;
+    text-align: right;
+}
+
+.h1_bio{
+    color: #000000;
+    font-style: normal ; 
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.h2_bio{
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.p_bio{
+    text-align: left;
+}
+
+.muestras ul{
+    background-color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.irainicio{
+    background-color: #000000;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.irainicio a:hover{
+    color:#000000 ;
+    background-color: #00ffff;
+    padding: auto;
+}
+
+.body_canal{
+    background-color: #ffffff; 
+    font-family: 'Alumni Sans', sans-serif; 
+    font-weight: normal; 
+    font-size: 20px; 
+    font-stretch: normal; 
+    line-height: 1.5;
+}
+
+.conteiner_canal{
+    width: 90%;
+    height: 80vh;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 20px;
+    grid-template-areas: 
+    "header header"
+    "navbar navbar"
+    "tituloCanal tituloCanal"
+    "video1 video2"
+    "irainicio irainicio";
+}
+
+.header{
+    grid-area: header;
+    text-align: center;
+}
+
+.navbar{
+    grid-area: navbar;
+    text-align: center;
+}
+
+.tituloCanal{
+    grid-area: tituloCanal;
+    text-align: left;
+}
+
+.video1{
+    grid-area: video1;
+    text-align: left;
+    margin: 0;
+}
+
+.video2{
+    grid-area: video2;
+    text-align: right;
+    margin: 0;
+}
+
+.h1_canal{
+    color: #000000;
+    font-style: normal ; 
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.p_canal{
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+}
+.a_chanel{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.a_chanel:hover{
+    color: #000000;
+    background-color: #00ffff;
+    padding: auto;
+}
+
+.h3_video1{
+    font-weight: bold; 
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+}
+
+.p_video1{
+    font-size: 18px;
+    font-style: normal;
+    text-align: left;
+}
+
+.h3_video2{
+    font-weight: bold; 
+    font-style: normal;
+    font-size: 20px;
+    text-align: right;
+    margin: 0;
+}
+
+.p_video2{
+    font-size: 18px;
+    font-style: normal;
+    text-align: right;
+    padding-bottom: 55px;
+}
+
+iframe{
+    padding: auto;
+}
+
+.body_escrituras{
+    padding: 20px;
+    background-color: #ffffff; 
+    font-family: 'Alumni Sans', sans-serif;
+    font-weight: normal;  
+    font-stretch: normal; 
+    line-height: 1.5; 
+}
+
+.conteiner_escr{
+    width: 90%;
+    height: 80vh;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 20px;
+    grid-template-areas: 
+    "header header"
+    "navbar navbar"
+    "escr_titulo escr_titulo"
+    "img_escr poema"
+    "irainicio irainicio";
+}
+
+.header{
+    grid-area: header;
+    text-align: center;
+}
+
+.navbar{
+    grid-area: navbar;
+    text-align: center;
+}
+
+.escr_titulo{
+    grid-area: escr_titulo;
+    text-align: left;
+}
+
+.h1_escr{
+    color: #000000;
+    font-style: normal ; 
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.img_escr{
+    grid-area: img_escr;
+    text-align: left;
+    width: 700px;
+}
+
+.poema{
+    grid-area: poema;
+    text-align: right;
+}
+
+.irainicio{
+    grid-area: irainicio;
+    text-align: right;
+}
+
+.p_escr{
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+}
+
+.a_blog{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.a_blog:hover{
+    margin: 5px;
+    color: #000000;
+    background-color: #00ffff;
+}
+
+.p_poema{
+    padding: 20px;
+    text-align: right; 
+    font-style: normal;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.div_escr{
+    padding: 20px;
+}
+
+.div_escr .img_escr{
+    width: 600px;
+    text-align: right;
+}
+
+.body_foto{
+    padding: 20px;
+    background-color: #ffffff; 
+    font-family: 'Alumni Sans', sans-serif; 
+}
+
+.conteiner_foto{
+    width: 90%;
+    height: 80vh;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 20px;
+    grid-template-areas: 
+    "header header"
+    "navbar navbar"
+    "galeria_titulo galeria_titulo"
+    "galeria_img galeria_img"
+    "irainicio irainicio";
+}
+
+.header{
+    grid-area: header;
+    text-align: center;
+}
+
+.navbar{
+    grid-area: navbar;
+    text-align: center;
+}
+
+.galeria_titulo{
+    grid-area: galeria_titulo;
+    text-align: left;
+}
+
+.p_gale{
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    margin: 0;
+}
+
+.h1_gale{
+    color: #000000;
+    font-style: normal ; 
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.galeria_img{
+    grid-area: galeria_img;
+    text-align: center;
+}
+
+.irainicio{
+    grid-area: irainicio;
+    text-align: right;
+}
+
+.a_fotografía{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.a_fotografía:hover{
+    color: #000000;
+    background-color: #00ffff;
+    padding: auto;
+}
+
+.imggale{
+    width: 350px;
+}
+
+.galeria_img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+}
+
+.body_tienda{
+    padding: 20px;
+    background-color: #ffffff; 
+    font-family: 'Alumni Sans', sans-serif; 
+    font-weight: normal; 
+    font-size: small; 
+    font-stretch: normal; 
+    line-height: 1.5;
+}
+
+.conteiner_tienda{
+    width: 90%;
+    height: 80vh;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    grid-template-areas: 
+    "header header"
+    "navbar navbar"
+    "titulo_tienda titulo_tienda"
+    "div_form div_form"
+    "irainicio irainicio";
+}
+
+.header{
+    grid-area: header;
+    text-align: center;
+}
+
+.navbar{
+    grid-area: navbar;
+    text-align: center;
+}
+
+.titulo_tienda{
+    grid-area: titulo_tienda;
+    text-align: left;
+}
+
+.div_form{
+    grid-area: div_form;
+    text-align: left;
+}
+
+.irainicio{
+    grid-area: irainicio;
+    text-align: right;
+}
+
+.h1_tienda{
+    color: #000000;
+    font-style: normal ; 
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+form{
+    font-size: 18px; 
+    color:#000000;
+}
+
+fieldset{
+    margin: 20px;
+    max-width: 500px;
+    border-color: #00ffff;
+}
+
+fieldset legend{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px){
+    .container_inicio {    
+      grid-template-columns: 1fr;
+      grid-template-rows:  repeat(4, 1fr);
+      grid-template-areas:
+      "header"
+      "navbar"
+      "imagen"
+      "redes";
+    }
+  
+    .conteiner_bio {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas: 
+        "header"
+        "navbar"
+        "titulo"
+        "textoBio" 
+        "img_bio"
+        "irainicio";
+    }
+
+    .img_bio{
+        width: 300px;
+        text-align: center;
+    }
+
+    .conteiner_canal{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas: 
+        "header"
+        "navbar"
+        "tituloCanal"
+        "video1" 
+        "video2"
+        "irainicio";
+    }
+
+    .iframeVideo{
+        width: 400px;
+    }
+
+    .conteiner_escr{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas: 
+        "header"
+        "navbar"
+        "escr_titulo"
+        "poema"
+        "img_escr"
+        "irainicio";
+    }
+
+    .img_escr{
+        width: 200px;
+    }
+
+    .conteiner_foto{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: 
+        "header"
+        "navbar"
+        "galeria_titulo"
+        "galeria_img"
+        "irainicio";
+    }
+
+    .conteiner_tienda{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: 
+        "header"
+        "navbar"
+        "titulo_tienda"
+        "div_form"
+        "irainicio";
+    }
+
+  }
